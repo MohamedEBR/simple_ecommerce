@@ -1,0 +1,24 @@
+# Ignore Docker Compose local override files
+docker-compose.override.yml
+
+# Ignore local environment variables
+.env
+
+# Ignore Postgres data (if you ever mount to local folder instead of volume)
+pgdata/
+postgres-data/
+
+# Ignore OS/editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Ignore IDE configs
+.vscode/
+.idea/
+
+# Ignore build artifacts
+bin/
+dist/
+target/
